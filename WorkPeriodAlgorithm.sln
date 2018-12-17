@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingPeriodDetector", "WorkingPeriodDetector\WorkingPeriodDetector.csproj", "{BF0FA78F-EAFB-4355-ACC6-7F55DC85CB3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseTimeDetector", "ReverseTimeDetector\ReverseTimeDetector.csproj", "{83566A63-3A64-44CB-815B-1FD5DD2B4FEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.WorkPeriod.Test", "Console.WorkPeriod.Test\Console.WorkPeriod.Test.csproj", "{26AA43BA-FB27-479B-946F-A529A92F52DE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF0FA78F-EAFB-4355-ACC6-7F55DC85CB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0FA78F-EAFB-4355-ACC6-7F55DC85CB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0FA78F-EAFB-4355-ACC6-7F55DC85CB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0FA78F-EAFB-4355-ACC6-7F55DC85CB3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83566A63-3A64-44CB-815B-1FD5DD2B4FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83566A63-3A64-44CB-815B-1FD5DD2B4FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83566A63-3A64-44CB-815B-1FD5DD2B4FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83566A63-3A64-44CB-815B-1FD5DD2B4FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26AA43BA-FB27-479B-946F-A529A92F52DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26AA43BA-FB27-479B-946F-A529A92F52DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26AA43BA-FB27-479B-946F-A529A92F52DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26AA43BA-FB27-479B-946F-A529A92F52DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
